@@ -5,6 +5,7 @@ En este espacio abordaremos la problemática de una "crisis de lectura" en nuest
 El equipo de compone por dos estudiantes de Ingeniería en Sistemas Computacionales de 2do semestre del Tecnológico de Monterrey, Campus Guadalajara:
 * Daniela González Güémez
 * Ian Huerta Gutiérrez
+
 Ambos comenzamos el proyecto con el interés y la preocupación en el ambiente por el cuál México está pasando, teniendo una visión positiva hacia el futuro
 
 ## Copyright and License
