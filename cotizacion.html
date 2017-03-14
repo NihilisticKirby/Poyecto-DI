@@ -27,10 +27,56 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <link href="jquery-ui-bootstrap-master/jquery.ui.theme.css" rel="stylesheet" type="text/css">
+    <link href="jquery-ui-bootstrap-master/jquery.ui.theme.font-awesome.css" rel="stylesheet" type="text/css">
+    
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Tooltip - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( document ).tooltip();
+  } );
+  </script>
+  <style>
+  label {
+    display: inline-block;
+    width: 5em;
+  }
+  </style>
+    
+    
+    
+    
+    <meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Blueprint: Vertical Timeline</title>
+		<meta name="description" content="Blueprint: Vertical Timeline" />
+		<meta name="keywords" content="timeline, vertical, layout, style, component, web development, template, responsive" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+    
+    
+    
+
 
 </head>
 
 <body>
+    
+    <style>
+        body{background-image: url(http://data.whicdn.com/images/179415016/large.gif);background-size: cover;color: white}
+        footer{background-color: white;color: black}
+    </style>
 
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
@@ -59,58 +105,103 @@
                 <a href="cotizacion.html" onclick=$("#menu-close").click();>Cotización</a>
             </li>
             <li>
+                <a href="kindle.html" onclick=$("#menu-close").click();>Kindle</a>
+            </li>
+            <li>
                 <a href="#contact" onclick=$("#menu-close").click();>Contacto</a>
             </li>
         </ul>
     </nav>
-
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Funadmentos de diseño interactivo</h1>
-            <h3><font color="white">Proyecto Final</font></h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Comenzar</a>
-        </div>
-    </header>
     
+    <style>
+        .mar{padding-top: 50px;padding-left: 60px;padding-right: 60px;}
+        #cron{background-color: black}
+        #ttlo{color: white}
+        .gif{background-color: rgba(0,0,0,0.5); padding-top: 20px;padding-left: 30px;padding-right: 30px;padding-bottom: 30px;}
+        .txt{text-decoration-color: white}
+        .cot{background-color: brown; padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 10px;}
+    </style> 
     
-
-<!-- Footer -->
-    <footer id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Diseño interactivo</strong>
-                    </h4>
-                    <p>Tecnologico de Monterrey
-                        <br>Campus Guadalajara</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i>33 10 40 15 60</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">A01632704@itesm.mx</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Ian &amp; Dani 2017</p>
-                </div>
+<div class="mar">
+    <div class="gif"><h1 class="txt">Resumen ejecutivo</h1>
+    <p class="txt">La propuesta consiste en una página web con el propósito de presentar información de una manera clara y ordenada, pretendiendoque sea fácil para el usuario interactuar con ésta y tener una experiencia placentera.</p></div>
+    <br><br>
+    <div class="row">
+        <center><div class="col-sm-4">
+            <div class="gif">
+            <h2 class="txt">Desarrollo</h2>
+            <p class="txt">La página cuenta con 6 diferentes páginas de navegación de HTML5: una página de inicio donde se incluye un resumen complto del contenido que será presentosdo, contando con 5 fotografías en esta con navegación a una página con una galería con más de 50 fotografías. Contamos con la información presentada de una manera interactiva para el usuario, con un diseño agradable a la vista y que evita que tengan la sensación de estar leyendo un libro. Contiene una presentación del prototipo de una manera llamativa para que el usuario pueda conocer más acerca del proyecto y dar una retroalimentación al respecto de éste, proporcionando mejoras continuas para asegurar el éxito una vez que el producto sea lanzado.</p>
             </div>
+            <br>    
+            <div class="cot">
+                <h2>Cotización</h2>
+                <hr>
+                <h4>$0000.00MX</h4>
+            </div>
+            </div></center>
+        <div class="col-sm-8" id="cron">
+			<div class="main">
+				<ul class="cbp_tmtimeline">
+					<li>
+						<div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                            <p id="age" title="31 de enero 2017">Selección e investigación del problema</p>
+                        </div>
+					</li>
+					<li>
+						<div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                        <p id="age" title="21 de febrero 2017">Busqueda de soluciones variadas</p>
+                        </div>
+					</li>
+					<li>
+						<div class="cbp_tmicon cbp_tmicon-earth"></div>
+                        <div class="cbp_tmlabel">
+                        <p id="age" title="7 de marzo 2017">Investigación del usuario</p>
+                        </div>
+					</li>
+					<li>
+						<div class="cbp_tmicon cbp_tmicon-screen"></div>
+                        <div class="cbp_tmlabel">
+                            <p id="age" title="14 de marzo 2017">Ajustes de la solución elegida</p>
+                        </div>
+					</li>
+					<li>
+						<div class="cbp_tmicon cbp_tmicon-screen"></div>
+                        <div class="cbp_tmlabel">
+                        <p id="age" title="25 de marzo 2017">Creación de prototipo</p>
+                        </div>
+					</li>
+					<li>
+						<div class="cbp_tmicon cbp_tmicon-screen"></div>
+						<div class="cbp_tmlabel">
+                            <p id="age" title="abril 2017">Implementación y prueba del prototipo</p>
+						</div>
+					</li>
+					<li>
+						<div class="cbp_tmicon cbp_tmicon-phone"></div>
+						<div class="cbp_tmlabel">
+                            <p id="age" title="mayo 2017">Correcciones Finales</p>
+						</div>
+					</li>
+                    <li>
+						<div class="cbp_tmicon cbp_tmicon-screen"></div>
+						<div class="cbp_tmlabel">
+                            <p id="age" title="forever">Profit</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+            
         </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-    </footer>
-
-    <!-- jQuery -->
+    </div> 
+<br>
+    <br>
+    
+    
+    
+        <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -168,28 +259,8 @@
             }
         }
     });
-    // Disable Google Maps scrolling
-    // See http://stackoverflow.com/a/25904582/1607849
-    // Disable scroll zooming and bind back the click event
-    var onMapMouseleaveHandler = function(event) {
-        var that = $(this);
-        that.on('click', onMapClickHandler);
-        that.off('mouseleave', onMapMouseleaveHandler);
-        that.find('iframe').css("pointer-events", "none");
-    }
-    var onMapClickHandler = function(event) {
-            var that = $(this);
-            // Disable the click handler until the user leaves the map area
-            that.off('click', onMapClickHandler);
-            // Enable scrolling zoom
-            that.find('iframe').css("pointer-events", "auto");
-            // Handle the mouse leave event
-            that.on('mouseleave', onMapMouseleaveHandler);
-        }
-        // Enable map zooming with mouse scroll when the user clicks the map
-    $('.map').on('click', onMapClickHandler);
-    </script>
 
 </body>
 
 </html>
+
